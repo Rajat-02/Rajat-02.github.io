@@ -1,0 +1,263 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.content {
+  border: 1px solid;
+  padding: 20px;
+}
+#sec1head a {
+  float: right;
+}
+.user-detail {
+  list-style-type: none;
+  display: inline-block;
+  margin-left: 10px;
+}
+#profile {
+  float: right;
+  margin-right: 25px;
+}
+.card {
+  height: 100%;
+}
+.brief {
+  float: left;
+  width: 80%;
+  list-style: none;
+}
+.calendar {
+  float: left;
+  width: 10%;
+}
+.userimage {
+  float: left;
+  margin-right: 10px;
+}
+.userimage img {
+  width: 40px;
+  height: 40px;
+}
+.list-group {
+  width: 100%;
+}
+.date {
+  list-style-type: none;
+}
+#month {
+  color: lightblue;
+  font-size: 8px;
+}
+#date {
+  color: lightblue;
+  font-size: 18px;
+  margin-top: -7px;
+}
+#day {
+  color: lightgrey;
+  font-size: 8px;
+  margin-top: -7px;
+}
+.header h3 {
+  font-size: 20px;
+}
+.header span {
+  font-size: 11px;
+  margin-top: 5px;
+}
+.list-group-item {
+  padding: 10px;
+}
+.brief .para2 span {
+  font-size: 0.6rem;
+}
+.brief .para {
+  font-size: 0.9rem;
+}
+.brief-2 {
+  float: left;
+  width: 80%;
+}
+#first {
+  margin-top: 5px;
+  font-size: 0.9rem;
+}
+#second {
+  margin-left: 35px;
+  margin-top: 5px;
+  font-size: 0.9rem;
+}
+#progressbar1 {
+  margin-left: 27px;
+  margin-top: 11px;
+  width: 200px;
+  height: 10px;
+}
+.light {
+  opacity: 0.7;
+  float: right;
+}
+.light .basic {
+  font-size: 8.5px;
+}
+#progressbar2 {
+  height: 5px;
+  margin-left: 20px;
+  margin-top: 4px;
+  width: 100px;
+}
+@media only screen and (min-width: 1024px) {
+  #sec1head {
+    margin-bottom: 15px;
+  }
+  .carimg img {
+    height: 220px;
+  }
+  .profile {
+    float: right;
+    margin-right: 25px;
+  }
+  .user-detail span {
+    margin-left: 10px;
+  }
+  #atag {
+    margin-left: 25px;
+  }
+  .header span {
+    font-size: 15px;
+    margin-top: 5px;
+    float: right;
+  }
+  .detail li {
+    border-left: none;
+    border-bottom-color: lightblue;
+  }
+  .para2 {
+    margin-top: -7px;
+    opacity: 0.7;
+  }
+  .basic {
+    font-size: 8.5px;
+  }
+  .userimage {
+    display: inline-block;
+  }
+  .userimage img {
+    width: 40px;
+    height: 40px;
+  }
+  .brief-2 {
+    margin-left: 11px;
+    display: inline-block;
+    list-style-type: none;
+  }
+  .brief-2 li {
+    display: flex;
+  }
+}
+.user-detail li {
+  padding: 5px 0px;
+}
+@media (max-width: 1023px) and (min-width: 768px) {
+  .carimg img {
+    max-width: 230px;
+    height: 220px;
+  }
+  .header span {
+    float: right;
+  }
+  #card p {
+    font-size: 0.9rem;
+  }
+  .userimage img {
+    width: 40px;
+  }
+  .brief-2 {
+    list-style-type: none;
+    float: left;
+    width: 80%;
+  }
+  .brief-2 .basic {
+    font-size: 10px;
+  }
+  #progressbar1 {
+    margin-left: 35px;
+  }
+  #progressbar2 {
+    height: 5px;
+  }
+}
+@media (max-width: 767px) {
+  #sec1head {
+    font-size: 1.2rem;
+  }
+  #sec1head a {
+    font-size: 0.7rem;
+  }
+  #para {
+    font-size: 0.9rem;
+  }
+  .carimg {
+    max-width: 60%;
+  }
+  .user-detail h3 {
+    font-size: 1.2rem;
+  }
+  .user-detail span {
+    font-size: 0.9rem;
+    margin-left: 5px;
+  }
+  .header span {
+    display: block;
+    margin-top: 3px;
+  }
+  .list-group-item {
+    padding: 10px;
+  }
+  .userimage img {
+    width: 40px;
+  }
+  .brief {
+    width: 82%;
+  }
+  .para2 {
+    margin-top: -10px;
+  }
+  .header h3 {
+    margin: 10px 0px;
+    font-size: 1.2rem;
+  }
+  .profilesection {
+    display: none;
+  }
+  .brief-2 {
+    margin-left: 11px;
+    display: inline-block;
+    list-style-type: none;
+  }
+  .brief-2 li {
+    display: flex;
+  }
+  #first {
+    margin-top: 5px;
+    font-size: 12px;
+  }
+  #second {
+    margin-left: 41px;
+    font-size: 12px;
+  }
+  #progressbar1 {
+    margin-left: 15px;
+    margin-top: 9px;
+  }
+  .light {
+    margin-right: 7px;
+  }
+  .light .basic {
+    font-size: 0.5rem;
+  }
+  #progressbar2 {
+    margin-left: 15px;
+  }
+}
